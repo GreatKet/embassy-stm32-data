@@ -215,6 +215,7 @@ impl PeriMatcher {
             (".*:ADC3_COMMON:aditf5_v1_1", ("adccommon", "f3", "ADC_COMMON")),
             ("STM32H7.*:ADC_COMMON:.*", ("adccommon", "v4", "ADC_COMMON")),
             ("STM32H7.*:ADC3_COMMON:.*", ("adccommon", "v4", "ADC_COMMON")),
+            ("STM32U5.*:ADC_COMMON:.*", ("adccommon", "40v1_U5", "ADC_COMMON")),
             ("STM32G4.*:OPAMP:G4_tsmc90_fastOpamp", ("opamp", "g4", "OPAMP")),
             ("STM32F3.*:OPAMP:tsmc018_ull_opamp_v1_0", ("opamp", "f3", "OPAMP")),
             (".*:DCMI:.*", ("dcmi", "v1", "DCMI")),
